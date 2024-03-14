@@ -1,8 +1,6 @@
-
 *{
     font-family: "Poppins", sans-serif;
 }
-
 #navbar {
     position: fixed;
     top: 0;
@@ -12,7 +10,6 @@
     transition: background-color 0.3s, top 0.3s;
     z-index: 1;
   }
-  
   label {
     line-height: 100px;
     padding: 10px 20px; 
@@ -31,7 +28,7 @@
     line-height: 80px;
     margin-right: 20px;
   }
-  
+
   nav ul li {
     margin: 0 5px;
   }
@@ -68,7 +65,6 @@
     align-items: center;
     font-size: 1rem;
 }
-
 /* Styles for the content within the container */
 .container__content {
     width: clamp(10rem, 90%, 80rem);
@@ -77,7 +73,6 @@
     margin-left: auto;
     margin-right: auto;
 }
-
 .container__title{
     font-weight: 600;
     font-style: normal;
@@ -88,23 +83,19 @@
     margin-bottom: -3rem;
     margin-left: -2.9rem;
 }
-
 .container__title:nth-of-type(2){
     margin-left: -1.3rem; 
 }
-
 .container__title:nth-of-type(3) {
     margin-left: -1rem; 
     margin-top: -1rem;
 }
-
 .container__text {
-    margin-left: 41.5%; 
+    margin-left: 40%; 
     margin-top: 0rem; 
     width: 50%;
     text-align: justify;
 }
-
 .container__image {
     width: 70%;  
     height: 34.375rem; 
@@ -115,14 +106,12 @@ body {
     background-color: #DADFD9;
     font-family: "Alegreya Sans", serif;
 }
-
 .container__image {
     margin-left: -1rem;
     margin-right: auto; 
     max-width: 100%; 
     height: auto;
 }
-
 .container__imageFirst {
     margin-top: auto; 
     margin-left: auto;
@@ -130,8 +119,6 @@ body {
     max-width: 100%;
     height: auto;
 }
-
-
 .containerTwo {
     display: flex;
     justify-content: center;
@@ -142,7 +129,6 @@ body {
     margin-left: 7vw;
     margin-top: 25rem;
 }
-
 .containerTwo__container {
     display: grid;
     grid-template-columns: 1fr;
@@ -150,9 +136,7 @@ body {
     margin-left: -3rem; 
     margin-top: 2rem;
     width: 90%;
-    
 }
-
 .containerTwo__item {
     padding: 1rem;
     text-align: center;
@@ -160,7 +144,6 @@ body {
     width: 15rem;
     position: relative;
 }
-
 .containerTwo__item img {
     position: absolute;
     top: 50%; 
@@ -170,7 +153,6 @@ body {
     height: 100%;
     object-fit: cover; 
 }
-
 /* Styles for the content within containerTwo */
 .containerTwo__content {
     display: flex;
@@ -180,7 +162,6 @@ body {
     margin-top: 15rem;
     font-size: 0.92rem;
 }
-
 /* Styles for the title within containerTwo */
 .containerTwo__title {
     /* margin-left: -3rem; */
@@ -188,18 +169,15 @@ body {
     font-size: 0.9rem;
     margin-left: auto;
 }
-
 /* Styles for the text within containerTwo */
 .containerTwo__text {
     margin-top: -1rem; 
 }
-
 /* Styles for the parent container */
 .containerTwo__imageDivs {
     display: flex; 
     justify-content: space-between;
 }
-
 /* Styles for the image div */
 .containerTwo__image {
     width: 35%;
@@ -208,13 +186,11 @@ body {
     margin-bottom: 5rem;
     margin-top: 17rem;
 }
-
 .containerTwo__image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 /* Styles for the contents div */
 .containerTwo__imageContents {
     width: 30%;
@@ -222,53 +198,42 @@ body {
     margin-top: 20rem;
     font-size: 0.9rem;
 }
-
 .containerTwo__imageContents-label {
     margin-left: -22rem;
     margin-bottom: -2rem;
 }
-
 .containerTwo__imageContents-title {
-    /* font-size: 2rem; */
     margin-left: -20.9rem;
     margin-bottom: -1rem;
     font-weight: 500;
 }
-
 .containerTwo__titleLinks {
     margin-top: 2rem;
     margin-left: -3rem;
 }
-
 .containerTwo__titleLink {
     margin-right: 1rem;
     border-right: 1px solid black; 
     padding-right: 1rem; 
 }
-
 .containerTwo__titleLink:last-child {
     border-right: none;
 }
-
 .containerTwo__titleLink--active {
     font-weight: bold;
 }
-
 .containerTwo__paragraph {
     text-align: justify;
-    width: 70%; /* Default width */
+    width: 70%;
     display: flex;
     flex-direction: column;
     margin-left: 0.5rem;
-
 }
-
 .containerTwo__additional-text {
     display: block;
     margin-top: 1rem;
     margin-left: -6rem;
 }
-
 .containerTwo__button {
     margin-top: 1rem;
     margin-left: -17rem;
@@ -281,125 +246,110 @@ body {
     font-size: 1rem;
     color: #f4f0e6;
     border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-
+.containerTwo__button:hover {
+    background-color: #405050;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
 .containerThree {
     margin-top: 22rem; 
     text-align: center;
 }
-
 .containerThree__header {
     margin-bottom: 2rem;
 }
-
 .containerThree__label {
     font-size: 1rem; 
     font-weight: 500;
 }
-
 .containerThree__title {
     font-size: 1.5rem; 
 }
-
-
-
-
-
-
-
 .containerThree__divs {
     margin-top: -8rem;
     display: flex;
-    flex-wrap: wrap; /* Allow items to wrap to the next line */
-    justify-content: center; /* Center items horizontally */
+    flex-wrap: wrap;
+    justify-content: center;
     padding: 10rem;
     gap:3rem;
 }
-
 .containerThree__div {
     position: relative;
     height: 18rem;
-    width: 21rem; /* Adjust width to fit three items in a row with gap */
-    margin: 0.5rem; /* Add margin between items */
+    width: 21rem; 
+    margin: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box; /* Include padding and border in the width calculation */
+    box-sizing: border-box;
 }
-
 .containerThree__div img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 .containerThree__titleOverlay,
 .containerThree__labelOverlay {
     display: none;
     position: absolute;
-    bottom: -1rem; /* Adjust as needed */
+    bottom: -1rem;
     left: -1rem;
     width: 95%;
     height: 3rem;
     margin-top: -10rem;
-    text-align: start; /* Center text */
+    text-align: start;
     padding-left: 3rem;
     border-radius: 5px;
-    background-color: rgba(155, 161, 118, 0.8);
+    background-color: rgb(155, 161, 118);
     color: black;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.5s ease;
     z-index: 1;
 }
-
 .containerThree__titleOverlay{
     top: 23rem;
     padding-top: 1rem;
 }
-
 .containerThree__div:hover .containerThree__titleOverlay,
 .containerThree__div:hover .containerThree__labelOverlay {
     display: block;
-    animation: show-overlay 1s forwards;
     transition: opacity 0.3s ease;
+    animation: show-overlay 0.5s forwards;
 }
 
-.containerThree__button{
-    padding: 0.3rem 0.3rem;
-    width: 5rem;
-    border: none;
-    cursor: pointer;
-    color: #1E3932;
-    border: 10px;
-    font-size: 1rem;
+@keyframes show-overlay {
+    from {
+        opacity: 0; /* Start with opacity 0 */
+    }
+    to {
+        opacity: 1; /* Gradually increase opacity to 1 */
+    }
 }
 
 .containerFour {
     display: grid;
-    grid-template-columns: 1fr 40vw; /* Adjust grid columns for the image */
+    grid-template-columns: 1fr 40vw;
     gap: 1rem;
     align-items: center;
     margin-bottom: 7rem;
 }
-
 .containerFour__content {
     text-align: left;
     margin-left: 18rem;
     margin-top: 1rem;
 }
-
 .containerFour__label {
     text-align: justify;
     font-size: 1rem;
 }
-
 .containerFour__div {
     margin-top: 1rem;
     width: 25rem;
     border-radius: 5px;
 }
-
 .containerFour__divTitle{
-    border: 1px solid black; /* Add border */
+    border: 1px solid black; 
     margin-bottom: -1rem;
     border-bottom: none;
     padding: 1rem;
@@ -409,22 +359,19 @@ body {
     font-size: 1rem;
     font-weight: 500;
 }
-
 .containerFour__divpara{
-    border: 1px solid black; /* Add border */
-    padding: 1.5rem; /* Add padding */
+    border: 1px solid black;
+    padding: 1.5rem;
     border-radius: 5px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
 }
-
 .containerFour__divTitletext {
-    border: 1px solid black; /* Add border */
+    border: 1px solid black;
     width: 22.8rem;
     padding: 1rem;
     border-radius: 5px;
 }
-
 .containerFour__image {
     width: 38vw; 
     height: 37rem;  
@@ -435,25 +382,21 @@ body {
     margin-left: -8rem;
     margin-right: 0; 
 }
-
 .containerFour__image img{
     object-fit: cover;
     height: 100%;
     width: 100%;
 }
-
 .wrapper {
     max-width: 1200px;
     width: 100%;
     position: relative;
     margin-left: 11rem;
 }
-
 .slider__tittle h1{
     font-weight: 700;
     font-size: 2rem;
 }
-
 .wrapper i {
     top: 50%;
     height: 50px;
@@ -469,19 +412,15 @@ body {
     transform: translateY(-50%);
     transition: transform 0.1s linear;
 }
-
 .wrapper i:active {
     transform: translateY(-50%) scale(0.85);
 }
-
 .wrapper i:first-child {
     left: -22px;
 }
-
 .wrapper i:last-child {
     right: -22px;
 }
-
 .wrapper .carousel {
     display: grid;
     grid-auto-flow: column;
@@ -493,31 +432,25 @@ body {
     scroll-behavior: smooth;
     scrollbar-width: none;
 }
-
 .carousel::-webkit-scrollbar {
     display: none;
 }
-
 .carousel.no-transition {
     scroll-behavior: auto;
 }
-
 .carousel.dragging {
     scroll-snap-type: none;
     scroll-behavior: auto;
 }
-
 .carousel.dragging .card {
     cursor: grab;
     user-select: none;
 }
-
 .carousel :where(.card, .img) {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .carousel .card {
     scroll-snap-align: start;
     height: 18rem;
@@ -528,18 +461,15 @@ body {
     flex-direction: column;
     border-radius: 8px;
 }
-
 .carousel .card .img {
     height: 70%;
     width: 100%;
 }
-
 .card .img img {
     width: 100%;
     height: 140%;
     object-fit: cover;
 }
-
 .video-container {
     display: flex;
     justify-content: space-between;
@@ -551,18 +481,14 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-
 .video-container__video {
     flex: 1;
-    background-color: #a68585; /* Placeholder background color */
 }
-
 .video-container__video video{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-
 .flex-container {
     display: flex;
     height: 12rem;
@@ -573,67 +499,78 @@ body {
     margin-right: auto;
     gap: 2rem;
 }
-
 .flex-item {
     flex: 1;
-    background-color: #c5a5a5; /* Placeholder background color */
+    background-color: #c5a5a5;
 }
-
 .flex-item img{
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
-
 .lastContainer{
     margin-top: 4rem;
 }
-
 .image-container {
     display: flex;
     margin-left: 10rem;
     margin-top: 2rem;
     margin-bottom: 5rem;
 }
-
 .image-block {
     position: relative;
     margin-left: 3rem;
     max-width: 100%;
+    transition: margin-left 0.3s ease; 
 }
-
 .image-block img {
     height: 20rem;
     max-width: 100%;
     object-fit: cover;
 }
-
 .hover-content {
     display: none;
     position: absolute;
     top: 13rem;
     left: 1.5rem;
     border-radius: 10px;
-    background-color: rgba(148, 155, 140, 0.8); /* Semi-transparent background color */
+    background-color: rgba(148, 155, 140, 0.8);
     padding: 20px;
     text-align: start;
+    opacity: 0;
+    transition: top 0.5s ease, opacity 0.5s ease;
 }
-
 .image-block:hover .hover-content {
     display: block;
     width: 14.5rem;
+    opacity: 1;
+    animation: slideIn 1s forwards, fadeIn 1s forwards;
+}
+@keyframes slideIn {
+    from {
+        top: 10rem; 
+    }
+    to {
+        top: 13rem;
+    }
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1; 
+    }
+}
 .title {
-    font-size: 18px; /* Adjust font size as needed */
+    font-size: 18px;
     font-weight: bold;
 }
-
 .label, .date, .description {
-    font-size: 14px; /* Adjust font size as needed */
-    margin-top: 5px; /* Adjust spacing between elements as needed */
+    font-size: 14px; 
+    margin-top: 5px;
 }
-
 .lastContainer__Title{
     margin-left: 1rem;
 }
@@ -645,15 +582,18 @@ body {
     color: rgb(202, 202, 202);
     background-color: #757575;
     border-top: 1px solid #e5e5e5;
+    margin-bottom: -2rem;
+    margin-top: 10rem;
 }
 
 .footer > * {
-    flex:  1 100%;
+    flex:  1 25%;
 }
 
 .footer__addr {
     margin-bottom: 2em;
     text-align: justify;
+    flex: 1;
 }
 
 .footer__logo {
@@ -705,7 +645,7 @@ body {
 }
 
 .footer__nav > * {
-    flex: 1 50%;
+    flex: 1 25%;
     margin-right: 1.25em;
 }
 
@@ -722,7 +662,7 @@ body {
 }
 
 .copy{
-    margin-left: -20rem;
+    margin-left: -32rem;
     margin-bottom: -2rem;
 }
 
@@ -746,6 +686,7 @@ body {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    margin-top: 10px;
 }
 
 .nav__button:hover {
@@ -753,192 +694,164 @@ body {
 }
 
 .containerThree__button{
-    padding: 0.3rem 0.3rem;
+    padding: 0.6rem 0.6rem;
     width: 5rem;
+    height: 3rem;
     border: none;
     cursor: pointer;
     color: #1E3932;
     border: 10px;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
 }
-
-  @media screen and (min-width: 24.375em) {
-    .legal .legal__links {
-      margin-left: auto;
-    }
-  }
-  
-  @media screen and (min-width: 40.375em) {
-    .footer__nav > * {
-      flex: 1;
-    }
-  
-    .footer__addr {
-      flex: 1 0px;
-    }
-  
-    .footer__nav {
-      flex: 2 0px;
-    }
-  }
-
-
+.containerThree__button:hover {
+    background-color: #b4bea6; 
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2);
+}
 /* Media query for screens smaller than 18rem */
 @media (max-width: 288px) {
-    /* Adjust font size for smaller screens */
-    .container, .containerTwo, .containerTwo__container {
-        font-size: 0.7rem;
+    *body{
+        font-size: 0.8rem;
+    }
+    label {
+        padding: 5px 5px;
+        font-size: 15px;
+        margin-bottom: -5rem; 
+      }
+      .navbar ul li{
+        font-size: 0.5rem;
+        margin-right: 5rem;
+      }
+    .blob {
+        width: 45rem;
+        margin-top: -10rem;
+        margin-left: -5rem;
+      }
+  
+    .container__title{
+        margin-left: auto;
     }
 
     .container__content {
-        /* width: 90%;  */
         text-align: center;
-        margin-top: 3rem;
-        margin-left: 7rem;
-        margin-right: auto;
-        font-size: 0.8rem;
-        margin-right: 1rem;
+        margin-top: 8rem;
+        margin-left: 6rem;
+        font-size: 0.7rem;
+        margin-right: 0rem;
+        width: 200%;
     }
 
-    .container__title:nth-child(2){
-        margin-left: -10px;
+    .container__title:nth-of-type(1){
+        margin-left: -25px;
     }
 
-    .container__title:nth-child(3){
-        margin-left: -0px;
-    }
-
-    /* Adjust margin for text within container */
     .container__text {
-        /* margin-left: 6rem;  */
+        margin-left: 15%; 
         margin-top: 0rem; 
         text-align: justify;
-        width: 15rem;
-    }
-
-    /* Adjust width and height for image within container */
-    .container__image {
-        width: 50%;  
-        height: 20rem; 
-        margin-top: 1rem; 
+        width: 70%;
+        font: 1rem;
     }
 
     .container__imageFirst{
-        margin-left: 3rem;
-        max-width: 15rem;
-        max-height: 15rem;
+        margin-left: 20rem;
+        height: 15rem;
     }
-    /* Adjust margin for subtitle within containerTwo */
+
+
     .containerTwo__subtitle {
-        margin-top: 10rem;
-        margin-left: 12rem;
-
+        margin-top: 30rem;
+        font-size: 0.8rem;
+        margin-left: 20rem;
     }
 
-    /* Adjust margin for title within containerTwo */
-    .containerTwo_title {
+    .containerTwo_title, .containerTwo_text {
         margin-top: 1rem;
-        margin-left: 12rem;
-
+        font-size: 0.8rem;
+        margin-left: 20rem;
+    }
+    .containerTwo_text{
+        width: 20rem;
+    }
+    .containerTwo {
+        font-size: 0.8rem;
+        margin-left: 0rem;
     }
 
-    /* Adjust margin for text within containerTwo */
-    .containerTwo_text {
-        margin-top: 1rem;
-        margin-left: 12rem;
-        width: 100%;
-        
-    }
-
-    /* Adjust font size for containerTwo container */
     .containerTwo__container {
-        font-size: 0.7rem;
-        /* margin-left: 6rem; */
+        font-size: 0.8rem;
     }
 
-    /* Adjust display and width for items within containerTwo */
     .containerTwo__item {
         display: flex;
         align-items: center;
         width: auto;
-        margin-left: 0;
-        width: 30%;
-        height: 4rem;
+        margin-left: 5rem;
+        width: 35%;
+        height: 10rem;
     }
 
-    /* Adjust display and grid columns for content within containerTwo */
     .containerTwo__content {
         display: grid;
         grid-template-columns: auto 1fr;
         gap: 1rem;
         align-items: center;
-        margin-left: 3rem;
     }
 
-    /* Adjust margin and width for title and text within containerTwo */
     .containerTwo__titleDivs {
-        margin-top: -5.8rem;
-        margin-left: 6rem;
-
+        margin-top: -10.5rem;
     }
 
     .containerTwo__titleDivs,
     .containerTwo__textDivs {
         grid-column: 1;
-        margin-left: 5rem;
-        width: 100%;
+        margin-left: 13rem;
+        width: 80%;
+        font-size: 0.8rem;
     }
 
     .containerTwo__imageDivs {
-        display: flex; /* Use flexbox */
-        justify-content: space-between; /* Distribute items evenly along the main axis */
-        /* margin-top: 9rem; */
-    }
-
-    .containerTwo__item{
-        margin-left: 6rem;
+        display: flex; 
+        justify-content: space-between;
     }
     
-    /* Styles for the image div */
     .containerTwo__image {
-        width: 15rem;
-        height: 10rem;
-        border: 0.15rem solid black;
-        margin-left: 15rem;
-        margin-bottom: 5rem;
+        width: 100%;
+        height: 15rem;
+        margin-left: 2rem;
+        margin-bottom: 20rem;
         margin-top: 5rem;
     }
     
-    /* Styles for the contents div */
     .containerTwo__imageContents {
-        width: 40%; /* Adjust width as needed */
-        margin-right: 5rem;
-        margin-top: 17rem;
-        font-size: 0.8rem;
+        width: 100%;
+        margin-right: -20rem;
+        margin-top: 5rem;
+        font-size: 0.6rem;
     }
     
-    /* Remaining styles for the inner elements remain unchanged */
     .containerTwo__imageContents-label {
         font-weight: bold;
-        margin-left: -20rem;
+        margin-left: -6.5rem;
+        margin-bottom: -1rem;
     }
-    
+
     .containerTwo__imageContents-title {
         font-size: 1.2rem;
-        margin-left: -19.9rem;
+        margin-left: -5.9rem;
         margin-bottom: -1rem;
     }
     
     .containerTwo__titleLinks {
         margin-top: 1.5rem;
-        margin-left: -13rem;
-        width: 18rem;
+        margin-left: -1rem;
     }
     
     .containerTwo__titleLink {
         margin-right: 1rem;
-        /* border-right: 1px solid black;  */
-        padding-right: 1rem; 
+        border-right: 1px solid black; 
     }
     
     .containerTwo__titleLink:last-child {
@@ -951,156 +864,292 @@ body {
     
     .containerTwo__paragraph {
         text-align: justify;
-        margin-left: -10rem;
-        width: 10rem;
+        width: 100%;
     }
     
     .containerTwo__additional-text {
         display: block;
         margin-top: 1rem;
-        margin-left: -10rem;
-        width: 10rem;
-
+        margin-left: -1rem;
     }
     
     .containerTwo__button {
-        margin-top: 1rem;
-        margin-left: -19.5rem;
-        padding: 0.5rem 0.5rem;
-        width: 7rem;
+        margin-top: 5rem;
+        margin-left: -13.5rem;
+        padding: 0.3rem 0.3rem;
+        width: 5rem;
         border: none;
         cursor: pointer;
     }
 
     .containerThree {
-        margin-top: 34rem; /* Adjust the top margin as needed */
+        margin-top: 40rem;
+        margin-left: 10rem;
         text-align: center;
         font-size: 0.8rem;
     }
 
     .containerThree__header {
-        margin-bottom: 1rem; /* Adjust the bottom margin as needed */
-        margin-left: 1.5rem;
+        margin-bottom: 1rem; 
+        margin-left: 7rem;
     }
     
     .containerThree__label {
-        font-size: 0.8rem; /* Adjust font size as needed */
+        font-size: 0.8rem; 
     }
     
     .containerThree__title {
-        font-size: 0.8rem; /* Adjust font size as needed */
+        font-size: 0.8rem; 
     }
     
     .containerThree__divs {
         margin-top: -10rem;
-        display: flex;
-        flex-wrap: wrap; /* Allow items to wrap to the next line */
-        justify-content: center; /* Center items horizontally */
-        padding: 10rem;
-        gap:3rem;
-        width: 10rem;
-        margin-left: -5rem;
+        width: 300%;
+        margin-left: -9rem;
     }
     
     .containerThree__div {
         position: relative;
-        height: 8rem;
-        margin: 0.5rem; /* Add margin between items */
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid black;
-        box-sizing: border-box; /* Include padding and border in the width calculation */
+        height: 13rem;
+        width: 100%; 
+        margin: 0.5rem;
+    }
+
+    .containerThree__div img{
+        width: 50rem;
     }
     
     .containerThree__titleOverlay,
     .containerThree__labelOverlay {
-        display: none;
-        position: absolute;
-        bottom: -1rem; /* Adjust as needed */
-        left: -1rem;
+        left: -0.5rem;
         width: 90%;
-        height: 1rem;
-        margin-top: -23rem;
-        text-align: start; /* Center text */
-        padding-left: 3rem;
-        background-color: rgb(210, 206, 206);
-        color: black;
-        transition: opacity 0.3s ease;
-        z-index: 1;
-        
+        height: 2rem;
     }
     
     .containerThree__titleOverlay{
-        top: 29rem;
-        padding-top: 0.8rem;
+        top: 20rem;
+        padding-top: 0.5rem;
         padding-bottom: 0.5rem;
     }
-    
-    .containerThree__div:hover .containerThree__titleOverlay,
-    .containerThree__div:hover .containerThree__labelOverlay {
-        display: block;
-    }
 
     .containerThree__button{
-        padding: 1rem;
-        height: 2rem;
-    }
-
-    .containerThree__button{
-        margin-left: -0.4rem;
         width: 5rem;
         padding: 0.5rem;
-}
+    }
 
-.containerFour__content {
-    margin-left: 8rem;
-    margin-top: 19rem;
-    font-size: 0.6rem;
-}
+    .containerFour__content {
+        margin-left: 9rem;
+        margin-top: 20rem;
+        font-size: 0.7rem;
+    }
 
-.containerFour__div {
-    margin-top: 1rem;
-    width: 10rem;
-    margin-left: -2rem;
-}
+    .containerFour__div {
+        margin-top: 1rem;
+        width: 14rem;
+        margin-left: -7rem;
+    }
 
-.containerFour__divTitle{
-    margin-bottom: -1rem;
-    padding: 0.5rem;
-    
-}
+    .containerFour__label{
+        margin-left: -1rem;
+    }
 
-.containerFour__divpara{
-    padding: 0.5rem; /* Add padding */
-}
+    .containerFour__title{
+        margin-left: -1.5rem;
+    }
 
-.containerFour__divTitletext {
-    width: 8rem;
-    padding: 0.5rem;
-    margin-left: -1.5rem;
+    .containerFour__divTitle{
+        margin-bottom: -1rem;
+        padding: 0.5rem;
+    }
 
-}
+    .containerFour__divpara{
+        padding: 0.5rem;
 
-.containerFour__image {
-    width: 50vw; 
-    height: 10rem;  
-    margin-top: -20rem; 
-    margin-left: -12rem;
-    margin-right: 0; 
-}
+    }
+
+    .containerFour__divTitletext {
+        width: 13rem;
+        padding: 0.5rem;
+        margin-left: -7rem;
+    }
+
+    .containerFour__image {
+        width: 120vw; 
+        height: 18rem;  
+        margin-top: -30rem; 
+        margin-left: -17.5rem;
+        margin-right: 0; 
+    }
+
+    .slider__tittle h1{
+        font-size: 0.9rem;
+        font-weight: 800;
+        margin-top: -1rem;
+        margin-left: 8rem;
+    }
+
+    .wrapper {
+        margin-top: 2rem;
+        margin-left: -7rem;
+        width: 40rem;
+    }
+
+    .wrapper i {
+        height: 40px;
+        width: 40px;
+        font-size: 1rem;
+        line-height: 40px;
+    }
+
+    .wrapper i:first-child {
+        left: -18px;
+    }
+
+    .wrapper i:last-child {
+        right: 20px;
+    }
+
+    .carousel .card {
+        height: 10rem;
+        width: 90%; 
+        max-width: none;
+        overflow-x: auto;
+    }
+
+    .image-block {
+        max-width: 100%;
+    }
+
+    .image-block img {
+        height: 10rem;
+    }
+
+    .video-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7rem;
+        max-width: 70%;
+        gap: 2rem;
+        height: 15rem;
+        padding: auto;
+        margin-left: -5rem;
+    }
+
+    .video-container__video {
+        flex: 1;
+    }
+
+    .video-container__video video{
+        height: 100%;
+        width: 14rem;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .flex-item{
+        display: flex;
+        height: 8rem;
+        margin-top: 1rem;
+        padding: auto;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 8rem;
+    }
+
+    .flex-item img {
+        width: 7rem;
+        gap: 2rem;
+    }
+
+    .flex-container{
+        height: 10rem;
+        margin-left: -7rem;
+        gap: 2rem;
+    }
+  
+    .hover-content {
+        display: none;
+        position: absolute;
+        left: 0rem;
+        top: 9rem;
+        padding: 3px;
+        text-align: start;
+    }
+  
+    .image-block:hover .hover-content {
+        display: block;
+        width: 100%;
+    }
+  
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .label, .date, .description {
+        font-size: 14px; 
+    }
+
+    .lastContainer__label{
+        margin-left: 8rem;
+    }
+
+    .lastContainer__Title{
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin-left: 0rem;
+        width: 20rem;
+    }
+
+    .image-container{
+        padding: 20px;
+        width: 35rem;
+        margin-left: -7rem;
+    }
+    .lastContainer{
+        margin-top: 3rem;
+    }
+    .image-block {
+        position: relative;
+        margin-left: 1rem;
+        max-width: 150%;
+    }
+    .footer__logo {
+        font-size: 1.2rem;
+        margin-left: 1rem;
+    }
+    .footer address {
+        width: 80%;
+        margin-left: 1rem;
+    }
+    .footer__nav > * {
+        flex: 1 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .legal {
+        margin-top: 3rem;
+    }
+    .copy {
+        margin-left: 1rem;
+    }
+    .footer{
+        width: 1200%;
+        margin-left: -9rem;
+    }
 }
 
 /* Media query for screens between 18rem and 32rem */
 @media (min-width: 288px) and (max-width: 512px) {
     label {
-        padding: 10px 10px; /* Further adjust padding for smaller screens */
-        font-size: 20px; /* Further adjust font size for smaller screens */
+        padding: 10px 10px;
+        font-size: 20px; 
+        margin-top: -2rem;
       }
     
       nav ul {
-        right: 10px; /* Further adjust right position for smaller screens */
-        margin-right: 5rem; /* Further adjust margin for smaller screens */
+        right: 10px;
+        margin-right: 5rem;
         font-size: 0.8rem;
       }
     
@@ -1109,98 +1158,72 @@ body {
       }
 
     .blob {
-        max-height: 15rem; /* Adjust height for smaller screens */
+        height: 100%; /* Adjust height for smaller screens */
         width: 38rem;
-        /* margin-left: -2.4rem; Adjust margin for smaller screens */
-        margin-top: -9rem;
+        margin-top: -10rem;
         margin-left: -5rem;
       }
-    /* .container__title:nth-child(2){
-        margin-left: -12px;
-    } */
-
-    /* .container__title:nth-child(3){
-        margin-left: -5px;
-    } */
-
+  
     .container__title{
         margin-left: auto;
-        /* margin-right: auto; */
     }
 
     .container__content {
-        /* width: 90%;  */
         text-align: center;
-        margin-top: 8rem;
-        margin-left: auto;
-        /* margin-right: auto; */
+        margin-top: 6rem;
+        margin-left: -2rem;
         font-size: 0.7rem;
         margin-right: 0rem;
+        width: 200%;
     }
 
-    .container__title:nth-child(2){
-        margin-left: -15px;
+    .container__title:nth-of-type(1){
+        margin-left: -25px;
     }
 
-    .container__title:nth-child(3){
-        margin-left: -12px;
-    }
-
-    /* Adjust margin for text within container */
     .container__text {
-        margin-left: 30%; 
+        margin-left: 22%; 
         margin-top: 0rem; 
         text-align: justify;
-        width: 60%;
+        width: 50%;
         font: 1rem;
     }
 
-    /* Adjust width and height for image within container */
-    /* .container__image {
-        width: 50%;  
-        height: 20rem; 
-        margin-top: 1rem; 
-    } */
+    .container__image{
+        width: 90%;
+    }
 
     .container__imageFirst{
-        margin-left: 50%;
-        max-width: 190%;
+        margin-left: 10rem;
         max-height: 15rem;
-        /* max-height: 0%;  */
+        width: 200%;
+    }
+ 
+    .container__imageFirst img{
+        width: 20rem;
     }
 
-
-    /* Adjust font size for container and containerTwo */
-    .container, .containerTwo {
-        font-size: 0.8rem;
-        margin-left: 2rem;
-    }
-    /* Adjust margin for subtitle within containerTwo */
     .containerTwo__subtitle {
-        margin-top: 40rem;
+        margin-top: 25rem;
         font-size: 0.8rem;
         margin-left: 5rem;
     }
 
-    /* Adjust margin for title and text within containerTwo */
     .containerTwo_title, .containerTwo_text {
         margin-top: 1rem;
         font-size: 0.8rem;
         margin-left: 5rem;
     }
 
-   
-    /* Adjust font size for containerTwo */
     .containerTwo {
         font-size: 0.8rem;
+
     }
 
-    /* Adjust font size for containerTwo container */
     .containerTwo__container {
         font-size: 0.8rem;
     }
 
-    /* Adjust display, width, and margin for items within containerTwo */
     .containerTwo__item {
         display: flex;
         align-items: center;
@@ -1210,7 +1233,6 @@ body {
         height: 10rem;
     }
 
-    /* Adjust display and grid columns for content within containerTwo */
     .containerTwo__content {
         display: grid;
         grid-template-columns: auto 1fr;
@@ -1218,7 +1240,6 @@ body {
         align-items: center;
     }
 
-    /* Adjust margin and width for title and text within containerTwo */
     .containerTwo__titleDivs {
         margin-top: -10.5rem;
     }
@@ -1233,29 +1254,25 @@ body {
     }
 
     .containerTwo__imageDivs {
-        display: flex; /* Use flexbox */
-        justify-content: space-between; /* Distribute items evenly along the main axis */
-        /* margin-top: 9rem; */
+        display: flex; 
+        justify-content: space-between; 
     }
     
-    /* Styles for the image div */
     .containerTwo__image {
-        width: 50%;
-        max-height: 20rem;
-        margin-left: 2rem;
+        width: 100%;
+        height: 15rem;
+        margin-left: 1rem;
         margin-bottom: 20rem;
         margin-top: 5rem;
     }
     
-    /* Styles for the contents div */
     .containerTwo__imageContents {
-        width: 60%; /* Adjust width as needed */
-        margin-right: -15rem;
-        margin-top: 3rem;
+        width: 60%; 
+        margin-right: -20rem;
+        margin-top: 5rem;
         font-size: 0.6rem;
     }
     
-    /* Remaining styles for the inner elements remain unchanged */
     .containerTwo__imageContents-label {
         font-weight: bold;
         margin-left: -15.5rem;
@@ -1289,13 +1306,14 @@ body {
     
     .containerTwo__paragraph {
         text-align: justify;
-        margin-left: -5rem;
+        width: 100%;
+        margin-left: -12em;
     }
     
     .containerTwo__additional-text {
         display: block;
         margin-top: 1rem;
-        margin-left: -13rem;
+        margin-left: -12rem;
     }
     
     .containerTwo__button {
@@ -1308,7 +1326,7 @@ body {
     }
 
     .containerThree {
-        margin-top: 50rem; /* Adjust the top margin as needed */
+        margin-top: 35rem;
         margin-left: 10rem;
         text-align: center;
         font-size: 0.8rem;
@@ -1320,36 +1338,35 @@ body {
     }
     
     .containerThree__label {
-        font-size: 0.8rem; /* Adjust font size as needed */
+        font-size: 0.8rem; 
     }
     
     .containerThree__title {
-        font-size: 0.8rem; /* Adjust font size as needed */
+        font-size: 0.8rem; 
     }
     
     .containerThree__divs {
         margin-top: -10rem;
-        width: 10rem;
-        margin-left: -6em;
+        width: 100%;
+        margin-left: -10rem;
     }
     
     .containerThree__div {
         position: relative;
-        height: 8rem;
-        width: 100%; /* Adjust width to fit three items in a row with gap */
-        margin: 0.5rem; /* Add margin between items */
+        height: 15rem;
+        width: 100%; 
+        margin: 0.5rem;
     }
     
     .containerThree__titleOverlay,
     .containerThree__labelOverlay {
         left: -0.5rem;
-        width: 80%;
-        height: 1rem;
-        margin-top: -15rem;
+        width: 90%;
+        height: 2rem;
     }
     
     .containerThree__titleOverlay{
-        top: 24rem;
+        top: 22rem;
         padding-top: 0.5rem;
         padding-bottom: 0.5rem;
     }
@@ -1357,257 +1374,284 @@ body {
     .containerThree__button{
         width: 5rem;
         padding: 0.5rem;
-}
+    }
 
-.containerFour__content {
-    margin-left: 9rem;
-    margin-top: 3rem;
-    font-size: 0.7rem;
-}
+    .containerFour__content {
+        margin-left: 9rem;
+        margin-top: 10rem;
+        font-size: 0.7rem;
+    }
 
-.containerFour__div {
-    margin-top: 1rem;
-    width: 14rem;
-    margin-left: -5rem;
-}
+    .containerFour__div {
+        margin-top: 1rem;
+        width: 14rem;
+        margin-left: -5rem;
+    }
 
-.containerFour__divTitle{
-    margin-bottom: -1rem;
-    padding: 0.5rem;
-}
+    .containerFour__divTitle{
+        margin-bottom: -1rem;
+        padding: 0.5rem;
+    }
 
-.containerFour__divpara{
-    padding: 0.5rem; /* Add padding */
-}
+    .containerFour__divpara{
+        padding: 0.5rem; 
+    }
 
-.containerFour__divTitletext {
-    width: 13rem;
-    padding: 0.5rem;
-    margin-left: -5rem;
+    .containerFour__divTitletext {
+        width: 13rem;
+        padding: 0.5rem;
+        margin-left: -5rem;
 
-}
+    }
 
-/* Styles for the image within the container */
-.containerFour__image {
-    width: 50vw; 
-    height: 15rem;  
-    margin-top: -20rem; 
-    margin-left: -15.5rem;
-    margin-right: 0; 
-}
+    .containerFour__image {
+        width: 60vw; 
+        height: 15rem;  
+        margin-top: -20rem; 
+        margin-left: -17.5rem;
+        margin-right: 0; 
+    }
 
-.slider__tittle h1{
-    font-size: 0.9rem;
-    font-weight: 800;
-    margin-top: -3rem;
-}
+    .slider__tittle h1{
+        font-size: 0.9rem;
+        font-weight: 800;
+        margin-top: 1rem;
+    }
 
-.wrapper {
-    margin-top: 3rem;
-    margin-left: 1.5rem;
-  }
+    .wrapper {
+        margin-top: 2rem;
+        margin-left: -7rem;
+        width: 40rem;
+    }
 
-  /* .wrapper i {
-    left: 10px;
-    right: 50px;
-  }
-  .wrapper i:first-child {
-    left: auto;
-  } */
-  .carousel .card {
-    height: 10rem;
-    width: 100%;
-  }
-  
-  .image-container {
-    margin-left: auto;
-  }
-  
-  .image-block {
-    position: relative;
-    margin-left: auto;
-    max-width: 150%;
-  }
-  
-  .image-block img {
-    /* width: 100px; Adjust image size as needed */
-    height: 13rem;
-    max-width: 100%;
-    object-fit: cover;
-  }
+    .wrapper i {
+        height: 40px;
+        width: 40px;
+        font-size: 1rem;
+        line-height: 40px;
+    }
 
-  .video-container__video{
-    height: 10rem;
-    width: 500px;
+    .wrapper i:first-child {
+        left: -18px;
+    }
 
-  }
+    .wrapper i:last-child {
+        right: 20px;
+    }
 
-  .flex-item{
-    height: 10rem;
-    width: 100%;
-    margin-top: -4rem;
+    .carousel .card {
+        height: 10rem;
+        width: 90%; 
+        max-width: none;
+        overflow-x: auto;
+    }
 
-  }
-  
-  .hover-content {
-    display: none;
-    position: absolute;
-    left: 0rem;
-    top: 9rem;
-    background-color: rgba(189, 133, 133, 0.8); /* Semi-transparent background color */
-    padding: 3px;
-    text-align: start;
-  }
-  
-  .image-block:hover .hover-content {
-    display: block;
-    width: 100%;
-  }
-  
-  .title {
-    font-size: 18px; /* Adjust font size as needed */
-    font-weight: bold;
-  }
-  
-  .label, .date, .description {
-    font-size: 14px; /* Adjust font size as needed */
-    margin-top: 0px; /* Adjust spacing between elements as needed */
-  }
+    .image-block {
+        max-width: 100%;
+    }
 
-  .lastContainer__Title{
-    margin-left: 0.3rem;
-    font-size: 0.9rem;
-    font-weight: bold;
-  }
+    .image-block img {
+        height: 10rem;
+    }
 
-  .image-container{
-    padding: 20px;
-  }
-  .lastContainer{
-    margin-top: -4rem;
-  }
+    .video-container {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 7rem;
+        max-width: 70%;
+        gap: 2rem;
+        height: 20rem;
+        padding: auto;
+        margin-left: -5rem;
+    }
 
-  .image-block {
-    position: relative;
-    margin-left: 1rem;
-    max-width: 150%;
-  }
+    .video-container__video {
+        flex: 1;
+    }
+
+    .video-container__video video{
+        height: 100%;
+        width: 14rem;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .flex-item{
+        display: flex;
+        height: 8rem;
+        width: 60%;
+        margin-top: 1rem;
+        padding: auto;
+        margin-left: auto;
+        margin-right: auto;
+        gap: 5rem;
+    }
+
+    .flex-item img {
+        width: 8rem;
+        gap: 4rem;
+
+    }
+
+    .flex-container{
+        height: 10rem;
+        margin-left: -7rem;
+        gap: 2rem;
+    }
+
+    .hover-content {
+        display: none;
+        position: absolute;
+        left: 0rem;
+        top: 9rem;
+        padding: 3px;
+        text-align: start;
+    }
+
+    .image-block:hover .hover-content {
+        display: block;
+        width: 100%;
+    }
+
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .label, .date, .description {
+        font-size: 14px; 
+    }
+
+
+    .lastContainer__Title{
+        font-size: 0.9rem;
+        font-weight: bold;
+    }
+
+    .image-container{
+        padding: 20px;
+        width: 35rem;
+        margin-left: -7rem;
+    }
+    .lastContainer{
+        margin-top: 3rem;
+    }
+
+    .image-block {
+        position: relative;
+        margin-left: 1rem;
+        max-width: 150%;
+    }
+
+    .footer__logo {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+    .footer address {
+        width: 80%;
+        margin-left: 2rem;
+    }
+    .footer__nav > * {
+        flex: 1 100%;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    .legal {
+        margin-top: 5rem;
+    }
+    .copy {
+        margin-left: 2rem;
+    }
+    .footer{
+        width: 200%;
+        margin-left: -5rem;
+    }
 }
 
 /* Media query for screens between 32rem and 50rem */
 @media (min-width: 512px) and (max-width: 800px) {
     label {
-        padding: 10px 10px; /* Further adjust padding for smaller screens */
-        font-size: 20px; /* Further adjust font size for smaller screens */
-      }
+        padding: 7px 10px; 
+        font-size: 20px;
+        margin-top: -2rem;
+    }
     
-      nav ul {
-        right: 10px; /* Further adjust right position for smaller screens */
-        margin-right: 8rem; /* Further adjust margin for smaller screens */
-      }
+    nav ul {
+        right: 10px; 
+        margin-right: 3rem;
+        font-size: 0.7rem;
+    }
     
-      nav ul li a {
-        padding: 10px 12px; /* Further adjust padding for smaller screens */
-      }
+    nav ul li a {
+        padding: 10px 12px;
+    }
 
     .blob {
-        max-height: 10rem; /* Adjust height for smaller screens */
+        max-height: 10rem;
         max-width: 100%;
-        /* margin-left: -2.4rem; Adjust margin for smaller screens */
-        margin-top: -6rem;
-      }
-    /* .container__title:nth-child(2){
-        margin-left: -12px;
-    } */
-
-    /* .container__title:nth-child(3){
-        margin-left: -5px;
-    } */
-
+        margin-top: -9rem;
+    }
+   
     .container__title{
         margin-left: auto;
-        /* margin-right: auto; */
+        font-size: 1rem;
     }
 
     .container__content {
-        /* width: 90%;  */
         text-align: center;
         margin-top: 5rem;
         margin-left: auto;
         margin-right: auto;
         font-size: 0.7rem;
-        margin-right: 1rem;
     }
 
     .container__title:nth-child(2){
-        margin-left: -10px;
+        margin-left: -20px;
     }
 
     .container__title:nth-child(3){
-        margin-left: -0px;
+        margin-left: -15px;
     }
 
-    /* Adjust margin for text within container */
     .container__text {
-        margin-left: 30%; 
+        margin-left: 20%; 
         margin-top: 0rem; 
         text-align: justify;
         width: 60%;
     }
 
-    /* Adjust width and height for image within container */
-    /* .container__image {
-        width: 50%;  
-        height: 20rem; 
-        margin-top: 1rem; 
-    } */
-
     .container__imageFirst{
         margin-left: 13%;
         max-width: 100%;
         max-height: 20rem;
-        /* max-height: 0%;  */
     }
 
-
-    /* Adjust font size for container and containerTwo */
-    .container, .containerTwo {
+    .containerTwo__subtitle {
+        margin-top: 40rem;
         font-size: 0.8rem;
     }
 
-   
-
-    /* Adjust margin for subtitle within containerTwo */
-    .containerTwo__subtitle {
-        margin-top: 40rem;
-    }
-
-    /* Adjust margin for title and text within containerTwo */
     .containerTwo_title, .containerTwo_text {
         margin-top: 1rem;
+        font-size: 0.8rem;
     }
 
-   
-    /* Adjust font size for containerTwo */
     .containerTwo {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
-    /* Adjust font size for containerTwo container */
     .containerTwo__container {
         font-size: 0.8rem;
     }
 
-    /* Adjust display, width, and margin for items within containerTwo */
     .containerTwo__item {
         display: flex;
         align-items: center;
         width: auto;
-        margin-left: 4rem;
+        margin-left: 2rem;
         width: 35%;
     }
 
-    /* Adjust display and grid columns for content within containerTwo */
     .containerTwo__content {
         display: grid;
         grid-template-columns: auto 1fr;
@@ -1615,7 +1659,6 @@ body {
         align-items: center;
     }
 
-    /* Adjust margin and width for title and text within containerTwo */
     .containerTwo__titleDivs {
         margin-top: -10.5rem;
     }
@@ -1623,55 +1666,53 @@ body {
     .containerTwo__titleDivs,
     .containerTwo__textDivs {
         grid-column: 1;
-        margin-left: 13rem;
+        margin-left: 15rem;
         width: 80%;
+        font-size: 0.8rem;
     }
 
     .containerTwo__imageDivs {
-        display: flex; /* Use flexbox */
-        justify-content: space-between; /* Distribute items evenly along the main axis */
-        /* margin-top: 9rem; */
+        display: flex;
+        justify-content: space-between;
     }
     
-    /* Styles for the image div */
     .containerTwo__image {
-        width: 40%;
+        width: 45%;
         max-height: 20rem;
-        margin-left: 2rem;
+        margin-left:-1rem;
         margin-bottom: 5rem;
         margin-top: 5rem;
     }
     
-    /* Styles for the contents div */
     .containerTwo__imageContents {
-        width: 40%; /* Adjust width as needed */
-        margin-right: 1rem;
-        margin-top: 6rem;
+        width: 40%;
+        margin-right: 5rem;
+        margin-top: 4rem;
+        font-size: 0.8rem;
+        margin-left: auto;
+    }
+    
+    .containerTwo__imageContents-label {
+        font-weight: bold;
+        margin-left: auto;
+        margin-bottom: -1rem;
         font-size: 0.8rem;
     }
     
-    /* Remaining styles for the inner elements remain unchanged */
-    .containerTwo__imageContents-label {
-        font-weight: bold;
-        margin-left: -15.5rem;
-        margin-bottom: -1rem;
-    }
-    
     .containerTwo__imageContents-title {
-        font-size: 2rem;
-        margin-left: -14.9rem;
+        margin-left: auto;
         font-size: 1.2rem;
     }
     
     .containerTwo__titleLinks {
         margin-top: 1.5rem;
-        margin-left: -1rem;
+        margin-left: auto;
     }
     
     .containerTwo__titleLink {
-        margin-right: 0.5rem;
         border-right: 1px solid black; 
-        padding-right: 1rem; 
+        padding-right: 0.5rem; 
+        font-size: 0.7rem;
     }
     
     .containerTwo__titleLink:last-child {
@@ -1684,39 +1725,39 @@ body {
     
     .containerTwo__paragraph {
         text-align: justify;
-        margin-left: -1rem;
+        margin-left: auto;
         width: 95%;
+        font-size: 0.8rem;
     }
     
     .containerTwo__additional-text {
         display: block;
         margin-top: 1rem;
-        margin-left: -3rem;
-        width: 20rem;
+        margin-left: auto;
+        width: 95%;
+        font-size: 0.8rem;
     }
-    
-    .containerTwo__button {
-        margin-top: 4rem;
-        margin-left: -22.5rem;
-        padding: 0.5rem 0.5rem;
-        width: 7rem;
-        border: none;
-        cursor: pointer;
+
+    .containerTwo__button{
+        height: 50px;
+        padding: 10px;
+        margin-top: 5rem;
     }
+
     .containerThree {
-        margin-top: 59rem; /* Adjust the top margin as needed */
+        margin-top: 59rem; 
         text-align: center;
     }
     .containerThree__header {
-        margin-bottom: 1rem; /* Adjust the bottom margin as needed */
+        margin-bottom: 1rem;
     }
     
     .containerThree__label {
-        font-size: 0.9rem; /* Adjust font size as needed */
+        font-size: 0.9rem; 
     }
     
     .containerThree__title {
-        font-size: 1.4rem; /* Adjust font size as needed */
+        font-size: 1.4rem;
         font-weight: 600;
     }
     
@@ -1727,20 +1768,20 @@ body {
     }
     
     .containerThree__div {
-        height: 15rem;
-        width: 18rem; /* Adjust width to fit three items in a row with gap */
-        margin: 0.5rem; /* Add margin between items */
+        height: 12rem;
+        width: 14rem; 
+        margin: 0.5rem;
     }
     
     .containerThree__titleOverlay,
     .containerThree__labelOverlay {
-        height: 3rem;
-        top: 25rem;
+        height: 2rem;
+        top: 20rem;
         padding-left: 3rem;
     }
     
     .containerThree__titleOverlay{
-        top: 22.5rem;
+        top: 21rem;
         padding-top: 1rem;
     }
     
@@ -1749,48 +1790,43 @@ body {
         display: block;
     }
 
-        /* .containerThree__button{
-            width: 5rem;
-            padding: 0.5rem;
-    } */
 
     .containerFour__content {
-        margin-left: 3rem;
+        margin-left: 5rem;
         margin-top: -6rem;
         font-size: 0.7rem;
     }
     
     .containerFour__div {
         margin-top: 1rem;
-        width: 14rem;
+        max-width: auto;
     }
     
     .containerFour__divTitle{
         margin-bottom: -1rem;
         padding: 0.5rem;
+        max-width: 10rem;
     }
     
     .containerFour__divpara{
-        padding: 0.5rem; /* Add padding */
+        padding: 0.5rem; 
+        max-width: 10rem;
     }
     
     .containerFour__divTitletext {
-        width: 13rem;
+        max-width: 10rem;
         padding: 0.5rem;
     }
     
-    /* Styles for the image within the container */
     .containerFour__image {
         width: 40vw; 
-        height: 25rem;  
+        max-height: 20rem;  
         margin-top: -10vh; 
-        margin-left: -4rem;
+        margin-left: -2rem;
     }
     .containerFour__div {
         width: 14rem;
     }
-    
-   
     
     .slider__tittle h1{
         font-size: 0.9rem;
@@ -1800,116 +1836,112 @@ body {
     
     .wrapper {
         margin-top: 3rem;
-        margin-left: 1.5rem;
-      }
-    
-      .wrapper i {
+        margin-left: 0.5rem;
+    }
+
+    .wrapper i {
         left: 10px;
-        right: 50px;
-      }
-      .wrapper i:first-child {
+        right: 30px;
+    }
+    .wrapper i:first-child {
         left: auto;
-      }
-      .carousel .card {
-        height: 13rem;
+    }
+    .carousel .card {
+        height: 12rem;
         width: 90%;
-      }
-      
-      .image-container {
-        margin-left: auto;
-      }
-      
-      .image-block {
-        position: relative;
-        margin-left: auto;
-        max-width: 90%;
-      }
-      
-      .image-block img {
-        /* width: 100px; Adjust image size as needed */
-        height: 13rem;
-        max-width: 100%;
-        object-fit: cover;
-      }
-
-      .video-container__video{
+    }
+     
+    .video-container__video{
         height: 15rem;
+    }
 
-      }
-
-      .flex-item{
-        height: 10rem;
+    .flex-item{
+        height: 8rem;
         width: 100%;
         margin-top: -4rem;
-
-      }
+    }
       
-      .hover-content {
+    .hover-content {
         display: none;
         position: absolute;
         left: 0rem;
         top: 9rem;
-        background-color: rgba(189, 133, 133, 0.8); /* Semi-transparent background color */
         padding: 3px;
         text-align: start;
-      }
+    }
       
-      .image-block:hover .hover-content {
+    .image-block:hover .hover-content {
         display: block;
         width: 98%;
-      }
+    }
       
-      .title {
-        font-size: 18px; /* Adjust font size as needed */
+    .title {
+        font-size: 18px; 
         font-weight: bold;
-      }
+    }
       
-      .label, .date, .description {
-        font-size: 14px; /* Adjust font size as needed */
-        margin-top: 0px; /* Adjust spacing between elements as needed */
-      }
+    .label, .date, .description {
+        font-size: 14px; 
+        margin-top: 0px;
+    }
     
-      .lastContainer__Title{
-        margin-left: 0.3rem;
+    .lastContainer__Title{
+        margin-left: 7rem;
         font-size: 0.9rem;
         font-weight: bold;
-      }
+    }
 
-      .image-container{
-        padding: 20px;
-      }
-      .lastContainer{
+    .lastContainer__label{
+        margin-left: 7rem;
+    }
+
+    .lastContainer{
         margin-top: -4rem;
-      }
+        margin-left: -8rem;
+    }
 
-      .image-block {
+    .image-block {
         position: relative;
         margin-left: 1rem;
         max-width: 100%;
-      }
-}
+        font-size: 0.8rem;
+    }
 
+    .image-block img{
+        height: 11rem;
+    }
+
+    .footer{
+        max-width: 100%;
+    }
+
+    .footer__logo {
+        font-size: 1.5rem;
+        margin-left: 4rem;
+    }
+    .footer address {
+        width: 70%;
+        margin-left: 4rem;
+    }
+    .footer__nav > * {
+        flex: 1 50%;
+        margin-right: 1rem;
+        margin-bottom: 0;
+    }
+    .legal {
+        margin-top: 7rem;
+    }
+    .copy {
+        margin-left: 4rem;
+    }
+}
 /* Media query for screens larger than 50rem */
-/* My laptop screen */
 @media (min-width: 800px) {
-    /* Adjust grid columns for container */
     
     /* Adjust grid columns for containerTwo container */
     .containerTwo__container {
         grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-        /* font-size: 0.8rem; */
     }
-
-    /* Adjust font size for text within containerTwo */
-    /* .containerTwo_text {
-        font-size: 1rem;
-        margin-top: 1rem;
-    } */
-
-    /* Reset margin for items within containerTwo */
-    /* .containerTwo__item {
-        margin-left: 0;
-    } */
 
     .containerThree__button{
         margin-top: 2rem;
@@ -1918,158 +1950,103 @@ body {
         padding: 1rem 1rem;
         width: 8rem;
         cursor: pointer;
-}
+    }
 
-
-/* .containerThree__divs {
-    margin-top: -10rem;
-    width: 20rem;
-    margin-left: -6em;
-} */
-
-.containerThree__div {
-    position: relative;
-    height: 18rem;
-    width: 25%; /* Adjust width to fit three items in a row with gap */
-    margin: 0.5rem; /* Add margin between items */
-}
+    .containerThree__div {
+        position: relative;
+        height: 18rem;
+        width: 25%; 
+        margin: 0.5rem;
+    }
 }
 
 /* Media query for screens between 50rem and 70rem */
 @media (min-width: 800px) and (max-width: 1120px) {
     label {
-        padding: 10px 10px; /* Further adjust padding for smaller screens */
-        font-size: 24px; /* Further adjust font size for smaller screens */
-      }
+        padding: 10px 10px;
+        font-size: 24px;
+    }
     
-      nav ul {
-        right: 10px; /* Further adjust right position for smaller screens */
-        margin-right: 10rem; /* Further adjust margin for smaller screens */
-      }
+    nav ul {
+        right: 10px;
+        margin-right: 10rem;
+    }
     
-      nav ul li a {
-        padding: 10px 12px; /* Further adjust padding for smaller screens */
-      }
+    nav ul li a {
+        padding: 10px 12px;
+    }
 
     .blob {
-        max-height: 20rem; /* Adjust height for smaller screens */
+        max-height: 20rem;
         max-width: 100%;
-        /* margin-left: -2.4rem; Adjust margin for smaller screens */
         margin-top: -10.2rem;
-      }
+    }
 
-    /* Adjust width, margin, and font size for container content */
     .container__content {
-        /* width: 90%;  */
-        /* text-align: center; */
         margin-top: 7rem;
-        /* margin-left: auto; */
-        /* margin-right: auto; */
         font-size: 0.8rem;
-        /* margin-right: 1rem; */
     }
 
-    /* .container__title:nth-child(2){
-        margin-left: -12px;
-    } */
-
-    /* .container__title:nth-child(3){
-        margin-left: -5px;
-    } */
-
-    .container__title{
+    .container__title {
         margin-left: auto;
-        /* margin-right: auto; */
     }
 
-    /* Adjust margin for text within container */
     .container__text {
-        /* margin-left: auto; */
         margin-left: 38%;
-        
-       
     }
 
-    /* Adjust width and height for image within container */
-     .container__image {
-        /* width: 50%;   */
-        /* height: 20rem;  */
-        margin-top: 5rem; 
+    .container__image {
+        margin-top: 5rem;
         margin-right: 2rem;
-        /* height: auto; */
-    } 
+    }
 
     .container__imageFirst {
-        margin-left: auto; /* Center the image horizontally */
+        margin-left: auto;
         margin-right: auto;
-        max-width: 100%; /* Adjust width to 70% of the container */
-        max-height: 20rem; /* Automatically adjust the height to maintain aspect ratio */
-        margin-top: 4.219rem; /* Adjust top margin as needed */
+        max-width: 100%;
+        max-height: 20rem;
+        margin-top: 4.219rem;
         margin-right: 3rem;
     }
 
-    /* Adjust margin for title within containerTwo */
-    /* .containerTwo_title {
-        margin-top: 0.5rem; 
-    } */
-
-    /* Adjust margin for text within containerTwo */
-    /* .containerTwo_text {
-        margin-top: 1rem; 
-    } */
-
-    .containerTwo{
-        /* margin-left: auto; */
+    .containerTwo {
         margin-right: auto;
         font-size: 0.8rem;
     }
 
-    /* Adjust margin for subtitle within containerTwo */
     .containerTwo__subtitle {
         margin-top: 22rem;
     }
 
-    /* Adjust grid columns for containerTwo container */
     .containerTwo__container {
         grid-template-columns: repeat(1, 1fr);
         gap: 2rem;
         margin-left: 18%;
         margin-right: auto;
         max-width: 100%;
-        /* margin-left: 10rem; */
     }
 
-    /* Adjust display and width for items within containerTwo */
     .containerTwo__item {
-        /* display: flex; */
-        /* align-items: center; */
-        /* width: auto; */
         width: 25%;
         margin-right: auto;
         max-height: 10rem;
     }
 
-    /* Adjust display and grid columns for content within containerTwo */
     .containerTwo__content {
-        /* width: 50%; */
         display: grid;
         grid-template-columns: auto 1fr;
         gap: 1rem;
         margin-left: auto;
         margin-right: auto;
         font-size: 0.8rem;
-        /* gap: 1rem; */
-        /* align-items: center; */
-        /* margin-right: 1rem; */
     }
 
-    /* Adjust margin and width for title and text within containerTwo */
     .containerTwo__titleDivs {
         margin-top: -13rem;
         font-weight: 600;
     }
 
-    .containerTwo__textDivs{
+    .containerTwo__textDivs {
         font-size: 0.8rem;
     }
 
@@ -2078,60 +2055,54 @@ body {
         grid-column: 1;
         margin-left: 16rem;
         width: 80%;
-
     }
-    
-    /* Styles for the image div */
+
     .containerTwo__image {
         max-width: 100%;
         max-height: 25rem;
-        /* border: 0.15rem solid black; */
         margin-left: 5rem;
         margin-bottom: 5rem;
         margin-top: 5rem;
     }
-    
-    /* Styles for the contents div */
+
     .containerTwo__imageContents {
-        width: 30%; /* Adjust width as needed */
+        width: 30%;
         margin-right: -2rem;
         margin-top: 5rem;
         font-size: 0.8rem;
         padding: 0.5rem;
     }
-    
-    /* Remaining styles for the inner elements remain unchanged */
+
     .containerTwo__imageContents-label {
         font-weight: bold;
         margin-right: 9rem;
     }
-    
+
     .containerTwo__imageContents-title {
         font-size: 2rem;
         margin-bottom: -1rem;
         margin-right: 9.2rem;
         font-size: 1.5rem;
     }
-    
+
     .containerTwo__titleLinks {
         margin-top: 2rem;
-        /* margin-right: 5rem; */
         margin-left: -15rem;
     }
-    
+
     .containerTwo__titleLink {
         margin-right: 1rem;
         border-right: 1px solid black;
     }
-    
+
     .containerTwo__titleLink:last-child {
         border-right: none;
     }
-    
+
     .containerTwo__titleLink--active {
         font-weight: bold;
     }
-    
+
     .containerTwo__paragraph {
         flex-direction: row;
         justify-content: center;
@@ -2139,13 +2110,13 @@ body {
         margin-left: -7.5rem;
         width: 100%;
     }
-    
+
     .containerTwo__additional-text {
         display: block;
         margin-top: 1rem;
         margin-left: -16rem;
     }
-    
+
     .containerTwo__button {
         margin-top: 1rem;
         margin-left: -26.5rem;
@@ -2156,153 +2127,179 @@ body {
     }
 
     .containerThree {
-        margin-top: 42rem; /* Adjust the top margin as needed */
+        margin-top: 42rem;
         text-align: center;
     }
 
-    
     .containerThree__div {
         height: 20rem;
-        width: 40%; /* Adjust width to fit three items in a row with gap */
+        width: 40%;
         margin-bottom: -2rem;
     }
-    
+
     .containerThree__div img {
         max-width: 80%;
         max-height: 15rem;
         object-fit: cover;
     }
-    
+
     .containerThree__titleOverlay,
     .containerThree__labelOverlay {
-        bottom: 0rem; /* Adjust as needed */
+        bottom: 0rem;
         left: auto;
         width: 65%;
         height: 2.5rem;
         margin-top: -10rem;
     }
-    
-    .containerThree__titleOverlay{
+
+    .containerThree__titleOverlay {
         top: 25rem;
         padding-top: 1rem;
     }
-    
+
     .containerThree__div:hover .containerThree__titleOverlay,
     .containerThree__div:hover .containerThree__labelOverlay {
         display: block;
     }
 
-    .containerThree__button{
+    .containerThree__button {
         margin-top: 2rem;
         margin-left: 14rem;
+    }
+
+    .containerFour__content {
+        margin-left: 7rem;
+        font-size: 0.8rem;
+        margin-top: -5rem;
+    }
+
+    .containerFour__div {
+        width: 14rem;
+    }
+
+    .containerFour__divTitle {
+        margin-bottom: -1rem;
+        padding: 0.5rem;
+    }
+
+    .containerFour__divpara {
+        padding: 0.5rem;
+    }
+
+    .containerFour__divTitletext {
+        width: 13rem;
+        padding: 0.5rem;
+    }
+
+    .containerFour__image {
+        width: 100%;
+        max-height: 30rem;
+        margin-top: -10vh;
+        margin-left: -5rem;
+    }
+
+    .slider__tittle h1 {
+        font-size: 0.6rem;
+        font-weight: 500;
+        margin-top: -3rem;
+    }
+
+    .wrapper {
+        margin-top: 3rem;
+        margin-left: 1.5rem;
+    }
+
+    .wrapper i {
+        left: 10px;
+        right: 10px;
+    }
+
+    .wrapper i:first-child {
+        left: auto;
+    }
+
+    .carousel .card {
+        height: 15rem;
+    }
+
+    .image-container {
+        margin-left: auto;
+    }
+
+    .image-block {
+        position: relative;
+        margin-left: auto;
+        max-width: 100%;
+    }
+
+    .image-block img {
+        height: 15rem;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .hover-content {
+        display: none;
+        position: absolute;
+        left: 0rem;
+        top: 13rem;
+        background-color: rgba(189, 133, 133, 0.8);
+        padding: 3px;
+        text-align: start;
+    }
+
+    .image-block:hover .hover-content {
+        display: block;
+    }
+
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .label,
+    .date,
+    .description {
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .lastContainer__Title {
+        margin-left: 1rem;
+    }
+
+    .image-container {
+        padding: -10px;
+    }
+
+    .footer__logo {
+        margin-left: 4rem;
+    }
+
+    .footer address {
+        width: 70%;
+        margin-left: 4rem;
+    }
+
+    .footer__nav > * {
+        flex: 1 50%;
+        margin-right: 1.25em;
+        margin-bottom: 0;
+    }
+
+    .legal {
+        margin-top: 7rem;
+    }
+
+    .copy {
+        margin-left: 4rem;
+    }
 }
 
-.containerFour__content {
-    margin-left: 7rem;
-    font-size: 0.8rem;
-    margin-top: -5rem;
-}
 
-.containerFour__div {
-    width: 14rem;
-}
 
-.containerFour__divTitle{
-    margin-bottom: -1rem;
-    padding: 0.5rem;
+
     
-}
-
-.containerFour__divpara{
-    padding: 0.5rem; /* Add padding */
-}
-
-.containerFour__divTitletext {
-    width: 13rem;
-    padding: 0.5rem;
-}
-
-/* Styles for the image within the container */
-.containerFour__image {
-    width: 100%; 
-    max-height: 30rem;  
-    margin-top: -10vh; 
-    margin-left: -5rem;
-}
-
-.slider__tittle h1{
-    font-size: 0.9rem;
-    font-weight: 800;
-    margin-top: -3rem;
-}
-
-.wrapper {
-    margin-top: 3rem;
-    margin-left: 1.5rem;
-  }
-
-  .wrapper i {
-    left: 10px;
-    right: 10px;
-  }
-  .wrapper i:first-child {
-    left: auto;
-  }
-
-  .carousel .card {
-    height: 15rem;
-  }
-
-  .image-container {
-    margin-left: auto;
-  }
-  
-  .image-block {
-    position: relative;
-    margin-left: auto;
-    max-width: 100%;
-  }
-  
-  .image-block img {
-    /* width: 100px; Adjust image size as needed */
-    height: 15rem;
-    max-width: 100%;
-    object-fit: cover;
-  }
-  
-  .hover-content {
-    display: none;
-    position: absolute;
-    left: 0rem;
-    top: 13rem;
-    background-color: rgba(189, 133, 133, 0.8); /* Semi-transparent background color */
-    padding: 3px;
-    text-align: start;
-  }
-  
-  .image-block:hover .hover-content {
-    display: block;
-  }
-  
-  .title {
-    font-size: 18px; /* Adjust font size as needed */
-    font-weight: bold;
-  }
-  
-  .label, .date, .description {
-    font-size: 14px; /* Adjust font size as needed */
-    margin-top: 5px; /* Adjust spacing between elements as needed */
-  }
-
-  .lastContainer__Title{
-    margin-left: 1rem;
-  }
-
-  .image-container{
-    padding: -10px;
-  }
-
-}
 
 
 
